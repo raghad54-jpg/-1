@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030012"/>
+      <stop offset="50%" stop-color="#1a0a33"/>
+      <stop offset="100%" stop-color="#b5a1fc"/>
+    </linearGradient>
+    <radialGradient id="lg4" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#d8b4fe" stop-opacity="0.4"/>
+      <stop offset="40%" stop-color="#7c3aed" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#d8b4fe" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg4)"/>
+  <ellipse cx="400" cy="200" rx="350" ry="120" fill="url(#lg4)"/>
+  <!-- particles network -->
+  <g stroke="#d8b4fe" stroke-width="1.5" opacity="0.6">
+    <line x1="300" y1="150" x2="500" y2="120"/>
+    <line x1="500" y1="120" x2="700" y2="200"/>
+    <line x1="700" y1="200" x2="900" y2="150"/>
+    <line x1="250" y1="300" x2="450" y2="280"/>
+    <line x1="450" y1="280" x2="650" y2="340"/>
+    <line x1="100" y1="450" x2="300" y2="430"/>
+    <line x1="300" y1="430" x2="500" y2="520"/>
+    <line x1="500" y1="520" x2="700" y2="460"/>
+    <line x1="700" y1="460" x2="900" y2="550"/>
+  </g>
+  <!-- glowing dots -->
+  <g>
+    <circle cx="300" cy="150" r="8" fill="#d8b4fe"><animate attributeName="r" values="6;12;6" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="120" r="6" fill="#b5a1fc"/>
+    <circle cx="700" cy="200" r="8" fill="#d8b4fe"><animate attributeName="r" values="8;14;8" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="150" r="6" fill="#a78bfa"/>
+    <circle cx="250" cy="300" r="7" fill="#c4b5fd"/>
+    <circle cx="650" cy="340" r="7" fill="#d8b4fe"><animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="100" cy="450" r="5" fill="#b5a1fc"/>
+    <circle cx="900" cy="550" r="5" fill="#c4b5fd"/>
+  </g>
+  <!-- abstract shapes -->
+  <g opacity="0.35">
+    <path d="M300 300 L400 350 L300 400 Z" fill="#7c3aed"/>
+    <path d="M900 100 L1000 160 L900 220 Z" fill="#b5a1fc"/>
+    <path d="M500 520 L620 580 L560 650 Z" fill="#d8b4fe"/>
+    <circle cx="200" cy="600" r="60" fill="#7c3aed" opacity="0.3"/>
+    <circle cx="1050" cy="400" r="80" fill="#a78bfa" opacity="0.25"/>
+  </g>
+  <!-- glow bottom -->
+  <ellipse cx="600" cy="750" rx="400" ry="60" fill="#7c3aed" opacity="0.2"/>
+  <!-- title -->
+  <text x="600" y="700" text-anchor="middle" font-family="Cairo,sans-serif" font-size="40" font-weight="800" fill="#fff" letter-spacing="2">أعمال إبداعية بذكاء اصطناعي</text>
+  <text x="600" y="740" text-anchor="middle" font-family="Cairo,sans-serif" font-size="26" fill="#d8b4fe">جيل بصري فريد من نوعه</text>
+</svg>
